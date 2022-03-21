@@ -1,0 +1,23 @@
+const client_manifest = {
+  "node_modules/nuxt3/dist/app/entry.mjs": {
+    "file": "entry-68f8ae77.mjs",
+    "src": "node_modules/nuxt3/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/nuxt3/dist/app/bootstrap.mjs"
+    ]
+  },
+  "node_modules/nuxt3/dist/app/bootstrap.mjs": {
+    "file": "bootstrap-5855f283.mjs",
+    "src": "node_modules/nuxt3/dist/app/bootstrap.mjs",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/bootstrap.47dfbeea.css"
+    ],
+    "assets": [
+      "assets/Montserrat-VariableFont_wght.f35fdf51.ttf"
+    ]
+  }
+};
+
+export { client_manifest as default };
